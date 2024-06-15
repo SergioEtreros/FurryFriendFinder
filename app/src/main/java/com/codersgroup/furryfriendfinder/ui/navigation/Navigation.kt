@@ -29,7 +29,7 @@ fun Navigation() {
 
         composable<ListScreen> { navBackStackEntry ->
             val filters = navBackStackEntry.toRoute<ListScreen>()
-             ListScreen(filters.sex, filters.species, filters.race, filters.dangerous, filters.location, filters.sterilized)
+             ListScreen(filters.sex, filters.species, filters.race, filters.dangerous, filters.sterilized)
         // { id -> navController.navigate(DetailScreen(id)) }
         }
 
