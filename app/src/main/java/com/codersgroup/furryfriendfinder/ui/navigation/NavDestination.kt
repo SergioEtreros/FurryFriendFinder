@@ -15,7 +15,6 @@ data class ListScreen(
     val species: String?,
     val race: String?,
     val dangerous: Boolean?,
-    val location: String?,
     val sterilized: Boolean?
 )
 

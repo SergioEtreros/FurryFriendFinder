@@ -24,12 +24,12 @@ fun Navigation() {
         composable<MainScreen> {
 //             MainScreen( onPetClick = { pet ->
 //                navController.navigate(
-//         ListScreen(pet.sex, pet.species, pet.race, pet.dangerous, pet.location, pet.sterilized)) } )
+//         ListScreen(pet.sex, pet.species, pet.race, pet.dangerous, pet.sterilized)) } )
         }
 
         composable<ListScreen> { navBackStackEntry ->
             val filters = navBackStackEntry.toRoute<ListScreen>()
-             ListScreen(filters.sex, filters.species, filters.race, filters.dangerous, filters.location, filters.sterilized)
+             ListScreen(filters.sex, filters.species, filters.race, filters.dangerous, filters.sterilized)
         // { id -> navController.navigate(DetailScreen(id)) }
         }
 
