@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FurryFriendFinder</string>
+    <string name="sex">Sexo</string>
+    <string name="kind">Especie</string>
+    <string name="place">Lugar</string>
+    <string name="sterilized">Esterilizado</string>
+    <string name="search">Buscar</string>
+    <string name="dangerous">Peligroso</string>
+    <string name="breed">Raza</string>
+
+    <string-array name="sexOptions">
+        <item name="male">Macho</item>
+        <item name="female">Hembra</item>
+        <item name="indefinite">Indefinido</item>
+    </string-array>
+
+    <string-array name="answerYesNo">
+        <item name="yes">Si</item>
+        <item name="no">No</item>
+    </string-array>
 </resources>
